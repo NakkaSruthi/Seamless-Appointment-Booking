@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+Full Stack Development with MERN
+DocSpot - Seamless Appointment Booking for Health
+👥 Team Members
+Mamidi Yashaswini (Team Leader)
+Chinthakayala Balaji
+Veligandla Pranathi
+Shaik Irfan
+Koneti Sreevidya
+📌 Project Overview
+DocSpot is a MERN stack-based doctor appointment booking system allowing patients to schedule healthcare appointments easily and efficiently. The project eliminates manual processes by providing real-time online scheduling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Project Features
+Role-based Login for Users, Doctors, Admins
+Doctor Approval and Management
+Real-time Appointment Scheduling
+User-Friendly Booking System
+Admin Controls for Doctor/User Management
+Responsive Frontend with React and Material UI
+🧰 Tech Stack
+Frontend: React with Material UI
+Backend: Node.js, Express.js
+Database: MongoDB
+Tools: Postman, Browser DevTools for Testing
+🗂 Folder Structure
+/client        - React Frontend  
+/server        - Express Backend API  
+/Project Report - Documentation Files  
+/Video Demo     - Recorded Demo of Project  
+⚙️ Setup Instructions
+Prerequisites: Install Node.js, NPM, MongoDB
+Clone Repository from GitHub
+Run npm install inside both /client and /server folders
+▶️ Running the Application
+Ensure MongoDB server is running locally
+Frontend: Run npm start in /client
+Backend: Run npm start in /server
+Frontend URL: http://localhost:3000
+Backend API: http://localhost:5000
+📡 API Endpoints
+POST /api/users/register     - Register a new user  
+POST /api/users/login        - Login for users  
+GET /api/users/doctors       - Fetch doctor list  
+POST /api/appointments       - Book an appointment  
+🔐 Authentication
+Email & Password based login system for Users, Doctors, and Admins.
+Future enhancement: Implement JWT authentication.
 
-## Available Scripts
+💻 User Interface Screens
+Login & Registration Pages
+Doctor Listing Page
+Booking Form
+User Dashboard
+Doctor Dashboard
+Admin Approval Page
+🧪 Testing
+Backend APIs tested using Postman
+UI tested across modern browsers using Chrome DevTools
+Performance optimized for API and DB queries
+📅 Project Planning & Scheduling
+Week 1: Requirement Gathering
+Week 2: UI Design Implementation
+Week 3: Frontend Development
+Week 4: Backend Development
+Week 5: Testing & Debugging
+Week 6: Final Submission and Demo
+✅ Advantages
+Real-time Booking and Doctor Approval
+Scalable Architecture with MERN Stack
+Easy-to-use Interface
+⚠️ Limitations & Future Scope
+❌ No Payment Gateway Integration (Planned)
+❌ No Mobile App Version (Planned)
+Future Enhancements:
 
-In the project directory, you can run:
+JWT Authentication
+Payment Integration
+Cloud Deployment
+Mobile App
+SMS/Email Notifications
+📽️ Demo
+<iframe src="https://drive.google.com/file/d/180JDaDJP01nu-xU6wG6LZwWE9oScPUpy/preview" width="640" height="360" allow="autoplay"></iframe>
+🔗 Click here to open the video directly in Google Drive
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📝 Note
+This project was developed as part of an academic Full Stack Development curriculum to demonstrate core MERN stack concepts in a real-world application.
